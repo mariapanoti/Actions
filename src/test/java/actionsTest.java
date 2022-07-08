@@ -33,7 +33,7 @@ public class actionsTest
     public void userLoginTest()
     {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(6));
-        wait.until(ExpectedConditions.elementToBeClickable(By.id("L2AGLb"))).click();
+      //  wait.until(ExpectedConditions.elementToBeClickable(By.id("L2AGLb"))).click();
         WebElement searchTxt = driver.findElement(By.name("q"));
         searchTxt.sendKeys("automation");
         System.out.println("Current URL is:" + driver.getCurrentUrl());
