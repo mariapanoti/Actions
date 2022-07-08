@@ -34,37 +34,13 @@
         </dependency>
 
 
-        <!--
-                <dependency>
-                    <groupId>junit</groupId>
-                    <artifactId>junit</artifactId>
-                    <version>4.13.2</version>
-                    <scope>test</scope>
-                </dependency>
-        -->
+  
 
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>4.1.4</version>
         </dependency>
-
-        <!--
-                <dependency>
-                    <groupId>org.testng</groupId>
-                    <artifactId>testng</artifactId>
-                    <version>6.14.3</version>
-                    <scope>test</scope>
-                </dependency>
-
-
-                <dependency>
-                    <groupId>org.tools4j</groupId>
-                    <artifactId>spockito-junit5</artifactId>
-                    <version>2.0</version>
-                    <scope>test</scope>
-                </dependency>
-                -->
 
         <dependency>
             <groupId>org.assertj</groupId>
@@ -89,14 +65,7 @@
             <artifactId>slf4j-api</artifactId>
             <version>1.7.36</version>
         </dependency>
-
-        <!--
-        <dependency>
-            <groupId>com.relevantcodes</groupId>
-            <artifactId>extentreports</artifactId>
-            <version>2.41.2</version>
-        </dependency>
-        -->
+       
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
@@ -138,22 +107,6 @@
                     <configuration>
                         <source>11</source>
                         <target>11</target>
-                    </configuration>
-                </plugin>
-
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-surefire-plugin</artifactId>
-                    <version>3.0.0-M6</version>
-
-                </plugin>
-
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-site-plugin</artifactId>
-                    <version>3.9.1</version>
-                    <configuration>
-                        <outputDirectory>C:\Users\datawise\Desktop\Reports</outputDirectory>
                     </configuration>
                 </plugin>
             </plugins>
